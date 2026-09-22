@@ -1,4 +1,4 @@
-Full code to document creation of RNAseq-related figures and analysis in the manuscript:
+Full code to document imaging as well as creation of RNAseq-related figures and analysis in the manuscript:
 
 "Loss of the miR-143/-145 cluster impairs cardiac scar resolution and cardiomyocyte proliferation in adult zebrafish"
 
