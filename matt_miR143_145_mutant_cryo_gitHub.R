@@ -33,6 +33,9 @@ dds <- DESeqDataSetFromTximport(txi, data, design=~condition)
 dds <- dds[rowSums(counts(dds))>10, ]
 dds <- DESeq(dds)
 
+#save for github:
+#saveRDS(dds, "dds_miRzdKO_manuscript.rds")
+
 rld <- rlog(dds, blind=FALSE)
 
 data <- plotPCA(rld,intgroup=c("condition"),ntop=500,returnData=TRUE)
